@@ -1,2 +1,2 @@
 # CodigoJava
-The repository assigned to the java programs
+This is the repository assigned to the Java and JavaScript proyects
