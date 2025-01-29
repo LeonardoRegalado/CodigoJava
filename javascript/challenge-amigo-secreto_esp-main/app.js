@@ -22,8 +22,8 @@ function actualizarLista() {
 }
 
 function sortearAmigo() {
-    let escogerAmigo = Math.floor(Math.random() * listaAmigos.length) ;
+    let numeroEscogido = Math.floor(Math.random() * listaAmigos.length) ;
     console.log(escogerAmigo);//prueba
     limpiar();
-    document.getElementById("resultado");
+    document.getElementById("resultado").innerHTML = `El amigo secreto es: ${listaAmigos[numeroEscogido]}`;
 }
