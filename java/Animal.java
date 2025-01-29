@@ -1,5 +1,5 @@
 
-package java_proyects;
+package java;
 public class Animal{
 
     public Animal(){
