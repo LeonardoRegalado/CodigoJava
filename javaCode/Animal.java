@@ -1,5 +1,5 @@
 
-package java;
+package javaCode;
 public class Animal{
 
     public Animal(){
