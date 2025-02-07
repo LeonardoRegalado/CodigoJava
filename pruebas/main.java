@@ -1,6 +1,7 @@
 package pruebas;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -58,5 +59,19 @@ abstract class main {
     numeros.forEach((numero)-> {
         System.out.println(numero + 1);
     });
+
+    ArrayList<String> carros = new ArrayList<String>();
+    carros.add("Volvo");
+    carros.add("BMW");
+    carros.add("Ford");
+    carros.add("Mazda");
+
+    Collections.sort(carros);  // Sort cars
+    System.out.println("A partir de aqui estaremos en la sigueinte version");
+    for (String carro : carros) {
+        System.out.println(carro);
+    }
+
+    //La siguiente sera la preuba de una HashMapo
     }
 }
