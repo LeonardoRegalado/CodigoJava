@@ -45,8 +45,8 @@ abstract class main {
     
     ArrayList cars2 = (ArrayList)cars.clone();
     cars.set(0, "Toyota");
-    
-    System.out.println(cars);
+    System.out.println("---------------------------");
+    System.out.println(cars.size());
     System.out.println(cars2);
         
     ArrayList <Integer> numeros = new ArrayList<>();
@@ -71,7 +71,9 @@ abstract class main {
     for (String carro : carros) {
         System.out.println(carro);
     }
-
+    for (int i = 0; i < copia.length; i++) {
+        
+    }
     //La siguiente sera la preuba de una HashMapo
     }
 }
