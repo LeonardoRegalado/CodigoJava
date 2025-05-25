@@ -12,7 +12,7 @@ abstract class main {
 
 
     public static void main(String[] args) {                                        
-    String[] bancos = {"NU","BBVA","SCOTIA BANK","BANREJIO","SANTANDER"};
+    String bancos[] = {"NU","BBVA","SCOTIA BANK","BANREJIO","SANTANDER"};
     String palabra = "Esta es una prueba";
     char letra = 'a';
     //palabra[0] = "Hol";
@@ -71,9 +71,18 @@ abstract class main {
     for (String carro : carros) {
         System.out.println(carro);
     }
-    for (int i = 0; i < copia.length; i++) {
-        
-    }
+    
     //La siguiente sera la preuba de una HashMapo
+    String nombre = "Leonardo";
+    int aulas = 4;
+    int numero = 3;
+
+    String mensaje= """
+                  Hola, %s!
+                  Bienvenido al curso de Java. numero %d
+                  Tendremos %d aulas para mostrarte lo que es necesario para que puedas dar tu primeros pasos en este lenguaje""".formatted(nombre, numero,aulas);
+
+System.out.println(mensaje);
+    
     }
 }
